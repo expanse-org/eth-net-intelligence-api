@@ -1,22 +1,22 @@
-Ethereum Network Intelligence API
+Expanse Network Intelligence API
 ============
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This is the backend service which runs along with ethereum and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [eth-netstats](https://github.com/cubedro/eth-netstats) to feed information. For full install instructions please read the [wiki](https://github.com/ethereum/wiki/wiki/Network-Status).
+This is the backend service which runs along with expanse and tracks the network status, fetches information through JSON-RPC and connects through WebSockets to [eth-netstats](https://github.com/cubedro/eth-netstats) to feed information. For full install instructions please read the [wiki](https://github.com/expanse-org/wiki/wiki/Network-Status).
 
 
 ## Prerequisite
-* eth, geth or pyethapp
+* gexp
 * node
 * npm
 
 
 ## Installation on an Ubuntu EC2 Instance
 
-Fetch and run the build shell. This will install everything you need: latest ethereum - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
+Fetch and run the build shell. This will install everything you need: latest expanse - CLI from develop branch (you can choose between eth or geth), node.js, npm & pm2.
 
 ```bash
-bash <(curl https://raw.githubusercontent.com/cubedro/eth-net-intelligence-api/master/bin/build.sh)
+bash <(curl https://raw.githubusercontent.com/expanse-org/eth-net-intelligence-api/master/bin/build.sh)
 ```
 ## Installation as docker container (optional)
 
